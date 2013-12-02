@@ -1,0 +1,11 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="gnome-mime-data"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-gnome-mime-data"
+VERSION=2.18.0
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="GnomeVFS mime type data for Win64 toolchain"
+DESCRIPTION="This module contains the base MIME and Application database for
+GNOME.  It is meant to be accessed through the MIME functions in GnomeVFS."
